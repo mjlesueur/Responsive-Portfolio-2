@@ -1,0 +1,153 @@
+body {
+    background-color: silver;
+}
+
+
+#about-me {
+    font-size: 30px;
+    line-height: 80%;
+}
+
+#contact {
+    font-size: 30px;
+    line-height: 80%;
+    color: lightseagreen;
+    font-weight: 900;
+}
+
+#portfolio {
+    font-size: 30px;
+    line-height: 80%;
+    color: lightseagreen;
+    font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    padding: 10px;
+}
+
+#masthead {
+    position: fixed;
+    width: 1013px;
+    overflow: auto;
+    margin-top: 30px;
+    margin-left: 280px;
+    margin-right: 20px;
+    padding: 30px 0 30px;
+    background: whitesmoke;
+}
+
+#logo {
+    float: left;
+    width: 360px;
+    background: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 85px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+nav {
+    float:right;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+#main-container {
+    padding-top: 160px;
+    min-height: calc(100vh - 70px);
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 954px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: whitesmoke;
+}
+
+#about-me {
+    padding-bottom:20px;
+    font-size: 36px;
+    color: lightseagreen;
+    font-weight: 700;
+    padding-left: 45px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    float: left;
+}
+
+#contact-form ul {
+    margin-top: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: whitesmoke;
+    background: lightseagreen;
+    border: 0 none;
+}
+
+.work img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.work {
+    position: relative;
+    float: left;
+    overflow: auto;
+}
+
+#word-guess, #rpg-game, #trivia-game, #rutgers, #rock-paper-scissors {
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: #ccc;
+    }
+
+    #about-me,
+    #logo {
+        font-family: cursive;
+    }
+
+}
